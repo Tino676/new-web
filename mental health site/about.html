@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Student Mental Health Support</title>
+    <meta name="description" content="Learn about our mission, team, and approach to supporting student mental health">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Skip Navigation Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header" role="banner">
+        <img src="logo.png" id="logo" alt="Student Mental Health Support Logo" width="200" height="80">
+        
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="Home page.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="service.html">Services</a></li>
+              
+                <li><a href="tips.html">Wellness Tips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="icons">
+            <button id="search-toggle" aria-label="Search" aria-expanded="false">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" aria-hidden="true"></i>
+            </button>
+            <button id="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Search Form -->
+    <div class="search-form" role="search" aria-hidden="true">
+        <form>
+            <label for="search-box" class="visually-hidden">Search resources</label>
+            <input type="search" id="search-box" placeholder="Search resources...">
+            <button type="submit" aria-label="Submit search">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+        </form>
+    </div>
+
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="about-hero" aria-labelledby="about-hero-heading">
+            <div class="about-hero-content">
+                <h1 id="about-hero-heading">About Student Mental Health Support</h1>
+                <p>Our mission, values, and commitment to student wellbeing</p>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="about-section" aria-labelledby="mission-heading">
+            <div class="section-header">
+                <h2 id="mission-heading">Our Mission</h2>
+                <p class="lead">Empowering students to thrive through mental health support and education</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Founded in 2015, Student Mental Health Support was created to address the growing mental health needs of college and university students. We recognize that academic success is deeply connected to emotional wellbeing, and we're committed to providing accessible, evidence-based resources to support the whole student.</p>
+                    
+                    <p>Our programs are designed by mental health professionals in collaboration with students, ensuring our approaches are both clinically sound and genuinely helpful for the unique challenges students face today.</p>
+                    
+                    <div class="stats-grid" role="region" aria-label="Our impact">
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="Over 50,000">50,000+</span>
+                            <span class="stat-label">Students served annually</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="Over 200">200+</span>
+                            <span class="stat-label">Campus partners</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="95 percent">95%</span>
+                            <span class="stat-label">Of students report reduced stress</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="togther.png" alt="Diverse group of students smiling and studying together" width="600" height="400">
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="values-section" aria-labelledby="values-heading">
+            <div class="section-header">
+                <h2 id="values-heading">Our Values</h2>
+                <p>The principles that guide our work</p>
+            </div>
+            
+            <div class="values-grid">
+                <article class="value-card" aria-labelledby="value1-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value1-heading">Compassion</h3>
+                    <p>We meet students where they are with empathy and without judgment, recognizing that each person's journey is unique.</p>
+                </article>
+                
+                <article class="value-card" aria-labelledby="value2-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value2-heading">Evidence-Based</h3>
+                    <p>Our resources and programs are grounded in scientific research and best practices in mental health care.</p>
+                </article>
+                
+                <article class="value-card" aria-labelledby="value3-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value3-heading">Inclusivity</h3>
+                    <p>We actively work to create services that are accessible and relevant to students of all backgrounds and identities.</p>
+                </article>
+                
+                <article class="value-card" aria-labelledby="value4-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value4-heading">Confidentiality</h3>
+                    <p>Student privacy is paramount. We maintain strict confidentiality standards in all our services.</p>
+                </article>
+                
+                <article class="value-card" aria-labelledby="value5-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value5-heading">Peer Support</h3>
+                    <p>We believe in the power of students helping students through shared experiences.</p>
+                </article>
+                
+                <article class="value-card" aria-labelledby="value6-heading">
+                    <div class="value-icon">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                    </div>
+                    <h3 id="value6-heading">Prevention</h3>
+                    <p>We focus on building resilience and coping skills before crises occur.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section" aria-labelledby="team-heading">
+            <div class="section-header">
+                <h2 id="team-heading">Our Team</h2>
+                <p>The dedicated professionals behind our services</p>
+            </div>
+            
+            <div class="team-grid">
+                <article class="team-card" aria-labelledby="team1-heading">
+                    <div class="team-image">
+                        <img src="sarah.jpg" alt="Dr. Sarah Chen, Clinical Director" width="300" height="300">
+                    </div>
+                    <div class="team-info">
+                        <h3 id="team1-heading">Dr. Sarah Chen</h3>
+                        <p class="team-title">Clinical Director</p>
+                        <p class="team-bio">Licensed psychologist with 15 years experience in university counseling centers. Specializes in anxiety management and mindfulness approaches.</p>
+                    </div>
+                </article>
+                
+                <article class="team-card" aria-labelledby="team2-heading">
+                    <div class="team-image">
+                        <img src="jamal.jpg" alt="Jamal Williams, Program Coordinator" width="300" height="300">
+                    </div>
+                    <div class="team-info">
+                        <h3 id="team2-heading">Jamal Williams</h3>
+                        <p class="team-title">Program Coordinator</p>
+                        <p class="team-bio">Former peer counselor who now develops our student-facing programs with a focus on accessibility and engagement.</p>
+                    </div>
+                </article>
+                
+                <article class="team-card" aria-labelledby="team3-heading">
+                    <div class="team-image">
+                        <img src="marai.jpg" alt="Maria Gonzalez, Outreach Specialist" width="300" height="300">
+                    </div>
+                    <div class="team-info">
+                        <h3 id="team3-heading">Maria Gonzalez</h3>
+                        <p class="team-title">Outreach Specialist</p>
+                        <p class="team-bio">Connects with student groups and campus organizations to ensure our services meet diverse community needs.</p>
+                    </div>
+                </article>
+                
+                <article class="team-card" aria-labelledby="team4-heading">
+                    <div class="team-image">
+                        <img src="rea.jpg" alt="Dr. Alan Park, Research Director" width="300" height="300">
+                    </div>
+                    <div class="team-info">
+                        <h3 id="team4-heading">Dr. Mothusi Moholeng</h3>
+                        <p class="team-title">Research Director</p>
+                        <p class="team-bio">Evaluates program effectiveness and stays current on mental health research to inform our practices.</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="team-cta">
+                <h3>Peer Support Team</h3>
+                <p>Our services are also supported by a network of trained peer counselors who provide first-hand understanding of student experiences.</p>
+                
+            </div>
+        </section>
+
+        <!-- Approach Section -->
+        <section class="approach-section" aria-labelledby="approach-heading">
+            <div class="section-header">
+                <h2 id="approach-heading">Our Approach</h2>
+                <p>How we support student mental health</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" aria-labelledby="step1-heading">
+                    <div class="timeline-content">
+                        <h3 id="step1-heading">1. Prevention & Education</h3>
+                        <p>We provide workshops, online resources, and awareness campaigns to help students build resilience and recognize when they might need support.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" aria-labelledby="step2-heading">
+                    <div class="timeline-content">
+                        <h3 id="step2-heading">2. Early Intervention</h3>
+                        <p>Through screening tools and peer support programs, we help identify challenges early when they're most manageable.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" aria-labelledby="step3-heading">
+                    <div class="timeline-content">
+                        <h3 id="step3-heading">3. Accessible Support</h3>
+                        <p>We offer multiple pathways to assistance including self-help tools, peer counseling, and professional services.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" aria-labelledby="step4-heading">
+                    <div class="timeline-content">
+                        <h3 id="step4-heading">4. Campus Collaboration</h3>
+                        <p>We work with faculty, staff, and student organizations to create a campus culture that supports mental wellbeing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" aria-labelledby="testimonials-heading">
+            <div class="section-header">
+                <h2 id="testimonials-heading">Student Stories</h2>
+                <p>Hear from students we've supported</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <article class="testimonial-card" aria-labelledby="testimonial1-heading">
+                    <blockquote>
+                        <p id="testimonial1-heading">"The mindfulness workshops helped me manage my test anxiety in a way I never thought possible. I went from barely functioning during exams to actually feeling prepared and confident."</p>
+                        <footer>
+                            <p class="testimonial-author">Riley, Junior Biology Major</p>
+                            <p class="testimonial-meta">Used our anxiety management resources</p>
+                        </footer>
+                    </blockquote>
+                </article>
+                
+                <article class="testimonial-card" aria-labelledby="testimonial2-heading">
+                    <blockquote>
+                        <p id="testimonial2-heading">"As an international student, I felt completely alone. Connecting with a peer counselor who understood my experience made all the difference in my transition."</p>
+                        <footer>
+                            <p class="testimonial-author">Amit, Graduate Engineering Student</p>
+                            <p class="testimonial-meta">Participated in peer counseling</p>
+                        </footer>
+                    </blockquote>
+                </article>
+                
+                <article class="testimonial-card" aria-labelledby="testimonial3-heading">
+                    <blockquote>
+                        <p id="testimonial3-heading">"The sleep strategies completely changed my college experience. I went from exhausted and overwhelmed to actually enjoying my classes and having energy for friends."</p>
+                        <footer>
+                            <p class="testimonial-author">Taylor, Sophomore History Major</p>
+                            <p class="testimonial-meta">Attended our sleep wellness program</p>
+                        </footer>
+                    </blockquote>
+                </article>
+            </div>
+            
+            <div class="testimonials-cta">
+                <a href="contact.html#share-story" class="btn-link">Share your story with us <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        
+                <p>Interested in partnering with us?</p>
+                <a href="contact.html#partnerships" class="btn">Contact Our Team</a>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="about-cta" aria-labelledby="cta-heading">
+            <div class="cta-content">
+                <h2 id="cta-heading">Ready to Get Support?</h2>
+                <div class="cta-buttons">
+                    
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="Student Mental Health Support Logo" width="150" height="60">
+                <p>Supporting student mental wellbeing and success</p>
+            </div>
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li><a href="Home page.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                   
+                    <li><a href="tips.html">Wellness Tips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Student Mental Health Support. All rights reserved.</p>
+            <p>In case of emergency, please call 911 or visit your nearest emergency room.</p>
+            <nav aria-label="Legal navigation">
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
